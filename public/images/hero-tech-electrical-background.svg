@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b55db"/><stop offset="1" stop-color="#17c8f4"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061a4b"/><stop offset=".55" stop-color="#0878f9"/><stop offset="1" stop-color="#20d8ff"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c8d7e8"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243b56"/><stop offset="1" stop-color="#07162b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#56dcff" stop-opacity=".55"/><stop offset="1" stop-color="#4ebeff" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#143d78" flood-opacity=".18"/></filter>
+</defs><rect width="1000" height="500" fill="#eaf7ff"/><circle cx="90" cy="60" r="180" fill="#fff" opacity=".5"/><circle cx="920" cy="80" r="190" fill="#c5efff" opacity=".7"/>
+<ellipse cx="460" cy="435" rx="420" ry="70" fill="#007bff" opacity=".13"/>
+<ellipse cx="460" cy="420" rx="390" ry="48" fill="url(#blue)" opacity=".92"/>
+<ellipse cx="460" cy="409" rx="370" ry="38" fill="#071e58"/>
+<ellipse cx="460" cy="403" rx="360" ry="31" fill="#0a5bd9"/>
+<!-- laptop -->
+<g filter="url(#shadow)"><path d="M180 110 Q180 95 196 93 L420 72 Q433 72 434 87 L449 294 L197 316 Z" fill="#18283e"/><path d="M193 105 L420 85 L432 278 L207 298 Z" fill="url(#screen)"/><path d="M207 298 L432 278 L466 312 Q468 321 452 324 L180 345 Q165 345 172 333 Z" fill="url(#metal)"/><path d="M278 313 L369 305 L383 311 L291 319 Z" fill="#8ba6c4"/></g>
+<!-- phone -->
+<g filter="url(#shadow)"><rect x="421" y="160" width="88" height="190" rx="16" fill="#07182d"/><rect x="429" y="171" width="72" height="165" rx="10" fill="url(#screen)"/><circle cx="465" cy="344" r="3" fill="#8da9c8"/><path d="M439 207 Q464 184 490 207 Q466 236 439 207Z" fill="#68efff" opacity=".5"/></g>
+<!-- CCTV cameras -->
+<g filter="url(#shadow)"><path d="M565 134 Q565 115 588 111 L705 124 Q726 129 726 150 L718 191 L584 184 Z" fill="#f8fbff" stroke="#b8cce0" stroke-width="4"/><ellipse cx="654" cy="165" rx="46" ry="27" fill="#e6eef8" stroke="#b4c8dd" stroke-width="4"/><circle cx="656" cy="163" r="20" fill="#14263d"/><circle cx="656" cy="163" r="13" fill="#050d1a"/><circle cx="650" cy="157" r="5" fill="#65dfff"/><path d="M595 190 L595 208 L625 208" fill="none" stroke="#b9cee3" stroke-width="8" stroke-linecap="round"/></g>
+<!-- multimeter -->
+<g transform="rotate(8 560 315)" filter="url(#shadow)"><rect x="510" y="240" width="85" height="140" rx="12" fill="#f4a900" stroke="#d98c00" stroke-width="4"/><rect x="521" y="253" width="63" height="46" rx="5" fill="#172e45"/><rect x="527" y="259" width="51" height="32" rx="3" fill="#9ce9d6"/><circle cx="552" cy="326" r="19" fill="#263b51"/><circle cx="552" cy="326" r="8" fill="#d9e5f0"/><path d="M527 357 Q507 375 500 402" fill="none" stroke="#ed333b" stroke-width="5"/><path d="M580 357 Q600 374 608 397" fill="none" stroke="#151b2b" stroke-width="5"/></g>
+<!-- cable coils -->
+<g fill="none" stroke-linecap="round"><path d="M650 342 C620 302 760 300 730 344 C700 386 590 376 615 337 C640 300 780 320 754 357" stroke="#0079f7" stroke-width="16"/><path d="M651 352 C621 312 761 310 731 354 C701 396 591 386 616 347 C641 310 781 330 755 367" stroke="#19b9ff" stroke-width="7"/><path d="M667 385 C647 353 758 352 745 386 C733 415 645 415 647 385" stroke="#ffd12e" stroke-width="9"/></g>
+<!-- plug and accessories -->
+<g filter="url(#shadow)"><rect x="742" y="345" width="72" height="55" rx="10" fill="#f9fcff" stroke="#b9cee3" stroke-width="3"/><rect x="757" y="330" width="7" height="24" rx="3" fill="#b4c7dc"/><rect x="790" y="330" width="7" height="24" rx="3" fill="#b4c7dc"/><circle cx="764" cy="372" r="5" fill="#152b44"/><circle cx="792" cy="372" r="5" fill="#152b44"/></g>
+<g filter="url(#shadow)"><rect x="390" y="365" width="94" height="32" rx="8" fill="#f7fbff" stroke="#b8cde1" stroke-width="3"/><rect x="406" y="374" width="17" height="12" rx="3" fill="#d5e4f5"/><rect x="438" y="374" width="17" height="12" rx="3" fill="#d5e4f5"/></g>
+<!-- plant -->
+<g transform="translate(760 65)"><path d="M32 122 C-10 78 4 37 32 71 C26 23 58 8 57 65 C89 20 115 41 78 85 C116 68 126 100 76 121Z" fill="#19a85a"/><path d="M28 121 Q57 87 80 59" stroke="#0c7940" stroke-width="4" fill="none"/><path d="M15 121 L95 121 L83 171 Q56 185 29 171Z" fill="#f4f8ff" stroke="#b8cde3" stroke-width="3"/></g>
+<circle cx="350" cy="190" r="200" fill="url(#glow)"/>
+</svg>

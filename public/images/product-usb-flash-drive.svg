@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<defs>
+ <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0b55db"/><stop offset="1" stop-color="#17c8f4"/></linearGradient>
+ <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061a4b"/><stop offset=".55" stop-color="#0878f9"/><stop offset="1" stop-color="#20d8ff"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c8d7e8"/></linearGradient>
+ <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243b56"/><stop offset="1" stop-color="#07162b"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#56dcff" stop-opacity=".55"/><stop offset="1" stop-color="#4ebeff" stop-opacity="0"/></radialGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#143d78" flood-opacity=".18"/></filter>
+</defs><ellipse cx="450" cy="420" rx="190" ry="25" fill="#0b70e8" opacity=".12"/><g filter="url(#shadow)" transform="rotate(-18 450 245)"><rect x="270" y="180" width="360" height="135" rx="30" fill="#e83439"/><rect x="295" y="195" width="260" height="105" rx="20" fill="#151e2d"/><rect x="545" y="215" width="110" height="65" rx="8" fill="#b8c7d8"/><rect x="570" y="228" width="58" height="39" rx="4" fill="#e6eef8"/><path d="M335 220 H500" stroke="#d9e5f0" stroke-width="6" stroke-linecap="round"/><path d="M335 240 H470" stroke="#6d8197" stroke-width="5" stroke-linecap="round"/></g></svg>
